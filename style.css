@@ -1,0 +1,104 @@
+    /*  LIGHT MODE  */
+    body {
+    background-color: #f0f2f5; 
+    color: #212529; 
+    transition: background-color 0.3s, color 0.3s;
+    }
+
+    .hero-section {
+    background-color: #ebcaca; 
+    }
+    .article-section {
+    background-color: #f0f2f5; 
+    }
+    .footer-section {
+    background-color: #ffffff; 
+    }
+    #btn-dark {
+    color: #212529; 
+    font-size: 1.2rem;
+    }
+    #btn-light {
+    color: #adb5bd; 
+    font-size: 1.2rem;
+    }
+
+
+    /* DARK MODE */
+    body.dark-mode {
+    background-color: #343a40; 
+    color: #ebcaca;          
+    }
+    body.dark-mode .navbar-brand,
+    body.dark-mode .nav-link {
+    color: #f8f9fa !important;
+    }
+
+    body.dark-mode .navbar {
+    background-color: #495057 !important; 
+    border-bottom: 1px solid #6c757d;
+    }
+
+    body.dark-mode .hero-section {
+    background-color: #495057;
+    }
+
+    body.dark-mode .article-section {
+    background-color: #343a40; 
+    }
+
+    body.dark-mode .footer-section {
+    background-color: #495057; 
+    }
+
+    body.dark-mode .card {
+    background-color: #6c757d; 
+    color: #f8f9fa;          
+    border: 1px solid #adb5bd;
+    }
+
+    body.dark-mode .card-title {
+    color: #ffffff; 
+    }
+
+    body.dark-mode .card-footer,
+    body.dark-mode .card .text-muted {
+    color: #dee2e6 !important; 
+    }
+    body.dark-mode #btn-dark {
+    color: #adb5bd;
+    }
+
+    body.dark-mode #btn-light {
+    color: #ffc107; 
+    }
+
+    /* Footer Light Mode */
+
+    .footer-section {
+    background-color: #343a40; 
+    color: #f8f9fa;
+    }
+    .footer-section a {
+    color: #f8f9fa;
+    transition: color 0.2s;
+    }
+
+    .footer-section a:hover {
+    color: #adb5bd; 
+    }
+
+
+    /* Footer Dark Mode*/
+    body.dark-mode .footer-section {
+    background-color: #212529; 
+    color: #f8f9fa;
+    }
+
+    body.dark-mode .footer-section a {
+    color: #f8f9fa;
+    }
+
+    body.dark-mode .footer-section a:hover {
+    color: #adb5bd;
+    }
